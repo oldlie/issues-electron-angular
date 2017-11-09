@@ -10,3 +10,4 @@
 1.    [VSCode 提示 ```this.http.post(url,data).toPromise()```  中没有 ```toPromise()``` 方法](./issues/vs_code_promise.md)
 1.    [执行 ```node_modules/.bin/ngc -p tsconfig-aot.json``` 命令时出现错误](./issues/ngc_error.md)
 1.    [同一父组件接收不同子组件同名事件时发生'subscribe not found'的错误](./issues/components_communication_same_event_error.md)
+1.    [使用VsCode自动导入模块代码，在aot编译时报找不到错误](./issues/vscode_auto_import_aot_not_found.md)

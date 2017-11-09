@@ -7,8 +7,10 @@
 
 在父组件新添加一个组件，该组件关闭事件名称为```closed```。触发打开该组件事件时报错：```subscribe ....```
 
-错误的：parent.component.html
-```
+### 问题代码
+
+parent.component.html：
+```html
 ...
 <app-waring-box *ngIf="warningBoxShow" [data]="tipData" (closed)="onWarningBoxClosed($event)"></app-waring-box>
 <app-rename-box *ngIf="renameBoxShow" (closed)="onRenameBoxClosed($event)"></app-rename-box>
@@ -24,8 +26,10 @@
 
 将新组件中的事件名称更改为更具体的事件名称，例如```xxxComponentClosed```
 
-修改后的：parent.component.html
-```
+### 修改后的代码
+
+parent.component.html：
+```html
 ...
 <app-waring-box *ngIf="warningBoxShow" [data]="tipData" (closed)="onWarningBoxClosed($event)"></app-waring-box>
 <app-rename-box *ngIf="renameBoxShow" (xxxComponentClosed)="onRenameBoxClosed($event)"></app-rename-box>
