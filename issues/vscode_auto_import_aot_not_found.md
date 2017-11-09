@@ -38,6 +38,7 @@ import { SuperClass } from './super-class';
 ···
 export class ChildComponent extends SuperClass
 ···
+```
 
 
 [问题记录](../README.md)
