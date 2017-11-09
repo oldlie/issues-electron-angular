@@ -4,7 +4,7 @@
 ## Angular 测试时出现： ``` 'router-outlet' is not a known element: ``` 错误
 
 需要在测试文件中添加导入声明：
-```
+```ts
 import { RouterTestingModule } from "@angular/router/testing";
 
   beforeEach(async(() => {

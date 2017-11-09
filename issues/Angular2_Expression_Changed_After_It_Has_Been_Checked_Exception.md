@@ -4,7 +4,7 @@
 
 在加载动态组件时遇到 Angular 抛出这个异常，我在代码中的解决方案：
 
-```
+```ts
 this.cdr.detach(); // 停止检测
 let componentRef = viewContainerRef.createComponent(componentFactory);
 (<ModalBodyComponent>componentRef.instance).data = this.config.data;

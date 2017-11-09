@@ -12,7 +12,7 @@ VSCode 更新到```1.18```版本。使用本版本提供的```auto import```功�
 
 ### 问题代码
 
-```js
+```ts
 ···
 import { SuperClass } from 'app/common/super-class';
 
@@ -31,7 +31,7 @@ export class ChildComponent extends SuperClass
 
 ### 修改后的代码
 
-```js
+```ts
 ···
 import { SuperClass } from './super-class';
 
