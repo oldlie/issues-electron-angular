@@ -51,7 +51,7 @@ child.component.ts:
 @Output() onPageClicked =new EventEmitter<number>();
 ···
 ···
-
+```
 
 
 [问题记录](../README.md)
