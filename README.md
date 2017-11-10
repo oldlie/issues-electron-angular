@@ -12,3 +12,5 @@
 1.    [同一父组件接收不同子组件同名事件时发生'subscribe not found'的错误](./issues/components_communication_same_event_error.md)
 1.    [使用VsCode自动导入模块代码，在aot编译时报找不到错误](./issues/vscode_auto_import_aot_not_found.md)
 1.    [子组件利用```output```向父组件发送事件报错](./issues/output_uncaught_in_promise_subscribe.md)
+
+test
