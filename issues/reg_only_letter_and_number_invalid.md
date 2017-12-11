@@ -10,7 +10,7 @@
 ### 问题代码
 
 ```js
-var reg = /^[A-Za-z\d]{6, 20}$/;
+const reg = /^[A-Za-z\d]{6, 20}$/;
 console.log(reg.test('123456'));
 ```
 
@@ -25,8 +25,8 @@ console.log(reg.test('123456'));
 ### 修改后的代码
 
 ```js
-var reg = /^[A-Za-z\d]{6,20}$/;
-console
+const reg = /^[A-Za-z\d]{6,20}$/;
+console.log(reg.test('123456'));
 ```
 
 
