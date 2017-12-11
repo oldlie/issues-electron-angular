@@ -13,4 +13,4 @@
 1.    [使用VsCode自动导入模块代码，在aot编译时报找不到错误](./issues/vscode_auto_import_aot_not_found.md)
 1.    [子组件利用```output```向父组件发送事件报错](./issues/output_uncaught_in_promise_subscribe.md)
 1.    [访问```TypeScript```中没有定义的变量](./issues/access_object_undefined_in_ts.md)
-
+1.    [正则```/^[A-Za-z0-9]{6, 20}$/```匹配6到20个数字或字母字符不正确](./issues/reg_only_letter_and_number_invalid.md)
