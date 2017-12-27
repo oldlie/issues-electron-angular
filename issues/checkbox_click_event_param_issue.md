@@ -5,7 +5,7 @@
 
 ### 症状
 
-在HTMLTemplate中创建数个CheckBox控件，并未每个控件绑定```onCheckType(t: string)```方法。试图通过```t```字段来区分每次点击的是
+在HTMLTemplate中创建数个CheckBox控件，并为每个控件绑定```onCheckType(t: string)```方法。试图通过```t```字段来区分每次点击的是
 哪个CheckBox控件。然而，不管点击哪个CheckBox，总是只改变第一个CheckBox的值。
 
 ### 问题代码
