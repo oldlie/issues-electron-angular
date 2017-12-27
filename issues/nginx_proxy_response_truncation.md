@@ -1,7 +1,7 @@
 [问题记录](../README.md)
 
 
-## ```nginx```做代理，response的数据被截断
+## ```nginx```做代理，```response```的数据被截断
 
 ### 症状
 
