@@ -16,3 +16,4 @@
 1.    [正则```/^[A-Za-z0-9]{6, 20}$/```匹配6到20个数字或字母字符不正确](./issues/reg_only_letter_and_number_invalid.md)
 1.    [```nginx```做代理，```response```的数据被截断](./issues/nginx_proxy_response_truncation.md)
 1.    [使用一组分别独立的CheckBox控件时，绑定的事件响应参数总是第一个值](./issues/checkbox_click_event_param_issue.md)
+1.    [从远程clone下来的Angular项目编译出错](./issues/cnpm_issue.md)
