@@ -17,3 +17,4 @@
 1.    [```nginx```做代理，```response```的数据被截断](./issues/nginx_proxy_response_truncation.md)
 1.    [使用一组分别独立的CheckBox控件时，绑定的事件响应参数总是第一个值](./issues/checkbox_click_event_param_issue.md)
 1.    [从远程clone下来的Angular项目编译出错](./issues/cnpm_issue.md)
+1.    [Maven项目中Java代码从git更新后提示“java:找不到符号”](./issues/java/java_update_cannot_find_symbol.md)
